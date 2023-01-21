@@ -1,10 +1,11 @@
 import React from 'react';
 import background from '../../images/JPjumble2k2.png';
+import UIstyle from '../../images/UIstyleGuide.gif';
 import Project from '../Project'
 const projects = [
     {
         id: 1,
-        image: '',
+        image: UIstyle,
         title: 'First Project',
         link: '',
         repo: ''
@@ -12,35 +13,35 @@ const projects = [
     {
         id: 2,
         image: '',
-        title: 'First Project',
+        title: 'Second Project',
         link: '',
         repo: ''
     },
     {
         id: 3,
         image: '',
-        title: 'First Project',
+        title: 'Third Project',
         link: '',
         repo: ''
     },
     {
         id: 4,
         image: '',
-        title: 'First Project',
+        title: 'Fourth Project',
         link: '',
         repo: ''
     },
     {
         id: 5,
         image: '',
-        title: 'First Project',
+        title: 'Fifth Project',
         link: '',
         repo: ''
     },
     {
         id: 6,
         image: '',
-        title: 'First Project',
+        title: 'Sixth Project',
         link: '',
         repo: ''
     },
