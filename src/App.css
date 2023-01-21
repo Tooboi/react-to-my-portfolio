@@ -50,8 +50,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
@@ -96,30 +96,23 @@ select {
 }
 body {
   background-color: var(--col-bg);
-  /* background-image: url(../public/JPjumble2k.png);
-  background-size: cover;
-  background-position: center; */
 }
 .aboutPage {
-  background-image: url(./images/JPjumble2k.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .contactPage {
-  background-image: url(./images/JPjumble2k3.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .portfolioPage {
-  background-image: url(./images/JPjumble2k2.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .resumePage {
-  background-image: url(./images/JPjumble2k.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -128,11 +121,11 @@ body {
   max-height: 3rem;
 }
 .navbar h3 {
-    color: rgba(255, 255, 255, 0.55);
-    transition: color 140ms ease-in-out
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 140ms ease-in-out;
 }
 .navbar h3:hover {
-    color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
 }
 .glass {
   background: rgba(255, 255, 255, 0.1);
@@ -170,18 +163,15 @@ body {
   text-align: center;
 }
 svg {
-  width: 2.5rem;
+  width: 2.4rem;
   fill: #ffffff69;
   margin: 0 0.5rem;
-  transition: width 140ms ease-in-out, fill 200ms ease-in-out  
-}
-svg:active:focus {
-  width: 90%;
+  transition: width 150ms ease-in-out, fill 280ms ease-in-out;
 }
 svg:hover,
-svg :active,
-svg :focus {
-  width: 2.6rem;
+svg:active,
+svg:focus {
+  width: 2.5rem;
   fill: #ffffff93;
 }
 .navbar {
@@ -932,7 +922,10 @@ body {
 .m-auto {
   margin: auto;
 }
-
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 @media screen and (min-width: 576px) {
   .col-sm-auto {
     flex-grow: 1;

@@ -4,7 +4,7 @@ import { ReactComponent as LinkedIn } from '../images/linkedin.svg';
 import { ReactComponent as Insta } from '../images/insta.svg';
 export default function Footer() {
     return (
-    <div className='footer'>
+    <div className='footer pb-1'>
         <a href='https://www.instagram.com/gamma2dot2/'>
            <Insta/>
         </a>
