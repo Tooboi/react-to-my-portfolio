@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Footer from './Footer'
 
 export default function BodyContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -30,6 +31,7 @@ export default function BodyContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className='container-fluid'>
         {renderPage()}
+        <Footer />
       </div>
     </div>
   );

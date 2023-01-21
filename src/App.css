@@ -101,25 +101,25 @@ body {
   background-position: center; */
 }
 .aboutPage {
-  background-image: url(../public/JPjumble2k.png);
+  background-image: url(./images/JPjumble2k.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .contactPage {
-  background-image: url(../public/JPjumble2k.png);
+  background-image: url(./images/JPjumble2k3.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .portfolioPage {
-  background-image: url(../public/JPjumble2k2.png);
+  background-image: url(./images/JPjumble2k2.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 .resumePage {
-  background-image: url(../public/JPjumble2k.png);
+  background-image: url(./images/JPjumble2k.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -160,6 +160,29 @@ body {
 }
 .max-width-960 {
   max-width: 960px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+svg {
+  width: 2.5rem;
+  fill: #ffffff69;
+  margin: 0 0.5rem;
+  transition: width 140ms ease-in-out, fill 200ms ease-in-out  
+}
+svg:active:focus {
+  width: 90%;
+}
+svg:hover,
+svg :active,
+svg :focus {
+  width: 2.6rem;
+  fill: #ffffff93;
 }
 .navbar {
   background: rgba(255, 255, 255, 0.15);
@@ -1494,10 +1517,8 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--col-on-surface);
+  /* color: var(--col-on-surface); */
 }
-a:hover {
+/* a:hover {
   color: var(--col-p-200);
-}
-
-/*# sourceMappingURL=gamma_UI.css.map */
+} */

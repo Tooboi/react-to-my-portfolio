@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default function About() {
   return (
     <div className="aboutPage py-5 px-3">
