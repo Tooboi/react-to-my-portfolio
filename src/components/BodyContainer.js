@@ -28,7 +28,9 @@ export default function BodyContainer() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className='container-fluid'>
+        {renderPage()}
+      </div>
     </div>
   );
 }
