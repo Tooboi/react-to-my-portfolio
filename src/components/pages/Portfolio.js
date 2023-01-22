@@ -5,6 +5,7 @@ import SoundByte from '../../images/soundByte.png';
 import AfterAfters from '../../images/afterAfters.png';
 import GammaUI from '../../images/gammaUI.png';
 import MVCtb from '../../images/techBlog.png';
+import Weather from '../../images/weather.png';
 import Project from '../Project'
 const projects = [
     {
@@ -12,49 +13,54 @@ const projects = [
         image: UIstyle,
         title: 'UI Style Guide',
         link: 'https://tooboi.github.io/Style-Guide/',
-        repo: 'https://github.com/Tooboi/Style-Guide'
+        repo: 'https://github.com/Tooboi/Style-Guide',
+        desc: ''
     },
     {
         id: 2,
         image: SoundByte,
         title: 'Sound Byte',
         link: 'https://soundbyte.herokuapp.com/',
-        repo: 'https://github.com/JoshuaCarter99/bandshare'
+        repo: 'https://github.com/JoshuaCarter99/bandshare',
+        desc: ''
     },
     {
         id: 3,
         image: AfterAfters,
         title: 'After Afters',
         link: 'https://tooboi.github.io/After-Afters/',
-        repo: 'https://github.com/Tooboi/After-Afters'
+        repo: 'https://github.com/Tooboi/After-Afters',
+        desc: ''
     },
     {
         id: 4,
         image: GammaUI,
         title: 'Gamma UI',
         link: 'https://tooboi.github.io/Gamma-UI/',
-        repo: 'https://github.com/Tooboi/Gamma-UI'
+        repo: 'https://github.com/Tooboi/Gamma-UI',
+        desc: ''
     },
     {
         id: 5,
         image: MVCtb,
         title: 'MVC Tech Blog',
         link: 'https://tech-blog-2023.herokuapp.com/',
-        repo: 'https://github.com/Tooboi/MVC-Tech-Blog'
+        repo: 'https://github.com/Tooboi/MVC-Tech-Blog',
+        desc: ''
     },
     {
         id: 6,
-        image: '',
-        title: 'Sixth Project',
-        link: '',
-        repo: ''
+        image: Weather,
+        title: 'Weather Dashboard',
+        link: 'https://tooboi.github.io/Weather-Dashboard/',
+        repo: 'https://github.com/Tooboi/Weather-Dashboard',
+        desc: ''
     },
 ]
 export default function Portfolio() {
     return (
-        <div className='portfolioPage pt-5' style={{ backgroundImage: `url(${background})` }}>
-            <h1>Portfolio</h1>
-            <Project projects={projects} image={projects.image} title={projects.title} link={projects.link} repo={projects.repo} />
+        <div className='portfolioPage pt-5 container' style={{ backgroundImage: `url(${background})` }}>
+            <Project projects={projects} image={projects.image} title={projects.title} link={projects.link} repo={projects.repo} desc={projects.desc} />
         </div>
     );
 }
