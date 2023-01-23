@@ -115,7 +115,8 @@ body::-webkit-scrollbar {
   background-position: center;
   height: 100dvh;
 }
-.portfolioPage h1 {
+.portfolioPage h1,
+.contactPage h1 {
   color: rgba(255, 255, 255, 0.80);
   max-width: 20rem;
 }
