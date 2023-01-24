@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import background from '../../images/JPjumble2k3.png';
 
-import { checkName, checkEmail, checkMessage, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Form() {
   // Create state variables for the fields in the form
