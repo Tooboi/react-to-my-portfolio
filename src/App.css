@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
 }
 .portfolioPage h1,
 .contactPage h1 {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   max-width: 20rem;
 }
 .resumePage {
@@ -233,7 +233,6 @@ label {
   overflow: hidden;
   border: 1px solid rgba(209, 213, 219, 0.3);
   position: relative;
-  
 }
 .overlay-text {
   position: absolute;
@@ -243,7 +242,7 @@ label {
   color: transparent;
 }
 .image-wrapper:hover .overlay-text a {
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
   transition: color 150ms ease-in-out;
 }
 .image-wrapper:hover .overlay-text a:hover {
@@ -252,7 +251,7 @@ label {
 }
 .image-wrapper:hover img {
   -webkit-filter: invert(25%) blur(4px) brightness(0.75);
-  filter: invert(25%) blur(4px) brightness(0.75); 
+  filter: invert(25%) blur(4px) brightness(0.75);
   transition: filter 150ms ease-in-out;
 }
 .project-svg {
@@ -265,8 +264,8 @@ label {
 }
 .image-wrapper:hover .project-svg,
 .image-wrapper:hover .project-desc {
-  fill: rgba(255, 255, 255, 0.60);
-  color: rgba(255, 255, 255, 0.80);
+  fill: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 .image-wrapper:hover .project-svg:hover {
   fill: rgba(255, 255, 255, 0.95);
