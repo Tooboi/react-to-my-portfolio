@@ -197,6 +197,16 @@ label {
   background-color: transparent;
   text-align: center;
 }
+.pdf-icon {
+  width: 1.25rem;
+  fill: #ffffff69;
+}
+.pdf-icon:hover,
+.pdf-icon:active,
+.pdf-icon:focus {
+  width: 1.3rem;
+  fill: #ffffff93;
+}
 .footer-svg {
   width: 2.4rem;
   fill: #ffffff69;
