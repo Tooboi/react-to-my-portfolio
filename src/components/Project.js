@@ -8,7 +8,7 @@ export default function Project({ projects }) {
         <div className="flex flex-column glass-2 m-4 p-4" key={project.id}>
           <div className="image-wrapper ">
             <div className="overlay-text container flex-column p-3">
-              <div className='row'>
+              <div className="row">
                 <a href={`${project.link}`} target="_blank" rel="noreferrer">
                   <h2 className="m-auto">{`${project.title}`}</h2>
                 </a>
@@ -23,13 +23,12 @@ export default function Project({ projects }) {
                   </svg>
                 </a>
               </div>
-              <div className='row py-2'>
-                <p className='project-desc select-none'>{project.desc}</p>
+              <div className="row py-2">
+                <p className="project-desc select-none">{project.desc}</p>
               </div>
             </div>
             <img src={project.image} alt={project.title} className="project-img"></img>
           </div>
-          <div></div>
         </div>
       ))}
     </div>
