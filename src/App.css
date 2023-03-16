@@ -31,6 +31,9 @@ body {
   line-height: 1.5;
   margin: 0;
   font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 /* Remove default margin */
@@ -102,7 +105,9 @@ body::-webkit-scrollbar {
 }
 .aboutPage {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
+  background-size: cover;
+  overflow: hidden;
 }
 video {
   width: 100%;
@@ -124,6 +129,9 @@ video {
   text-align: center;
   font-size: 1.5rem;
 }
+.header-font {
+  font-size: 3rem;
+}
 .heroFont {
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -134,7 +142,7 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.15);
+  background-color: rgba(0, 0, 0, 0.15);
   /* background-color: #000000cc; */
 }
 .contactPage {
@@ -150,7 +158,7 @@ video {
 .portfolioPage h1,
 .contactPage h1 {
   color: rgba(255, 255, 255, 0.8);
-  max-width: 20rem;
+  max-width: 26rem;
 }
 .resumePage {
   background-size: cover;

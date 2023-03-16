@@ -60,7 +60,7 @@ const projects = [
 export default function Portfolio() {
     return (
         <div className='portfolioPage pt-5 container flex-column align-items-center' style={{ backgroundImage: `url(${background})` }}>
-            <h1 className='mt-5 inline-flex justify-content-center glass-2 px-3 select-none'>Recent Projects</h1>
+            <h1 className='mt-5 inline-flex justify-content-center header-font px-3 select-none'>Recent Projects</h1>
             <Project projects={projects} image={projects.image} title={projects.title} link={projects.link} repo={projects.repo} desc={projects.desc} />
         </div>
     );

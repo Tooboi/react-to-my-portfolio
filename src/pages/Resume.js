@@ -7,7 +7,7 @@ import { ReactComponent as Download } from '../images/file-pdf-solid.svg';
 export default function Resume() {
   return (
     <div className="resumePage pt-5 container flex-column align-items-center" style={{ backgroundImage: `url(${background})` }}>
-      <h1 className="m-5 inline-flex justify-content-center glass-text glass-2 px-3 select-none">Resume<a href={pdf} target='_blank' rel="noreferrer" className='pdf-icon pb-0 ms-2 mt-1'>
+      <h1 className="m-5 inline-flex justify-content-center glass-text header-font px-3 select-none">Resume<a href={pdf} target='_blank' rel="noreferrer" className='pdf-icon pb-0 ms-2 mt-1'>
             <Download/>
             </a></h1>
       <div className="glass-2 p-4 row inline-flex justify-content-center">

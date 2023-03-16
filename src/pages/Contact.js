@@ -57,7 +57,7 @@ function Form() {
 
   return (
     <div className="contactPage pt-5 container flex-column align-items-center" style={{ backgroundImage: `url(${background})` }}>
-      <h1 className="m-5 inline-flex justify-content-center glass-2 px-3 select-none">Contact Me</h1>
+      <h1 className="m-5 inline-flex justify-content-center header-font px-3 select-none">Contact Me</h1>
       <div className="glass-2 p-4 row inline-flex justify-content-center">
         <div class="p-2 mx-2 container align-items-center flex-column">
           <form className="row flex-column">
