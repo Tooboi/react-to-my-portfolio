@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/react-to-my-portfolio/static/css/main.08bcb48d.css",
-    "main.js": "/react-to-my-portfolio/static/js/main.c546e51d.js",
+    "main.css": "/react-to-my-portfolio/static/css/main.1d222dda.css",
+    "main.js": "/react-to-my-portfolio/static/js/main.ecaba978.js",
     "static/js/787.4fb3532e.chunk.js": "/react-to-my-portfolio/static/js/787.4fb3532e.chunk.js",
-    "static/media/JPjumble2k.png": "/react-to-my-portfolio/static/media/JPjumble2k.878273981cd9f37ae3df.png",
-    "static/media/JPjumble2k3.png": "/react-to-my-portfolio/static/media/JPjumble2k3.bdf27b854ebcb487f5c0.png",
-    "static/media/JPjumble2k4.png": "/react-to-my-portfolio/static/media/JPjumble2k4.0abef3311ee9423bf362.png",
-    "static/media/JPjumble2k2.png": "/react-to-my-portfolio/static/media/JPjumble2k2.71bfb882d4cfddfedd5f.png",
+    "static/media/JP.webm": "/react-to-my-portfolio/static/media/JP.9e4062b9b042f3cf5fb7.webm",
+    "static/media/JPjumble2k3.webp": "/react-to-my-portfolio/static/media/JPjumble2k3.bab5aedd6572cfd386e1.webp",
+    "static/media/JPjumble2k2.webp": "/react-to-my-portfolio/static/media/JPjumble2k2.3bb815e7056cc70ddc55.webp",
+    "static/media/JPjumble2k4.webp": "/react-to-my-portfolio/static/media/JPjumble2k4.abada9e0a0b2928c856e.webp",
     "static/media/JPlogo3.png": "/react-to-my-portfolio/static/media/JPlogo3.396868e93905a497dbf4.png",
-    "static/media/soundByte.png": "/react-to-my-portfolio/static/media/soundByte.ee56065d2c21ee6e6114.png",
-    "static/media/UIstyleGuide.png": "/react-to-my-portfolio/static/media/UIstyleGuide.a49ace75c8fd334559e1.png",
-    "static/media/weather.png": "/react-to-my-portfolio/static/media/weather.2d9b10dcc003505445f1.png",
-    "static/media/afterAfters.png": "/react-to-my-portfolio/static/media/afterAfters.8314758ae57aa0d51f95.png",
-    "static/media/gammaUI.png": "/react-to-my-portfolio/static/media/gammaUI.2f7efe3786b7bfcdb2a8.png",
+    "static/media/UIstyleGuide.webp": "/react-to-my-portfolio/static/media/UIstyleGuide.99c87118351af3b34f6d.webp",
     "static/media/ResumeFAKE.pdf": "/react-to-my-portfolio/static/media/ResumeFAKE.5e7406074f557f1ae27e.pdf",
-    "static/media/techBlog.png": "/react-to-my-portfolio/static/media/techBlog.642dbbf41a4e99253695.png",
+    "static/media/gammaUI.webp": "/react-to-my-portfolio/static/media/gammaUI.092e256c104dae6d3bed.webp",
+    "static/media/weather.webp": "/react-to-my-portfolio/static/media/weather.f58824bc1c622254bbe0.webp",
+    "static/media/soundByte.webp": "/react-to-my-portfolio/static/media/soundByte.5320db76cfb499fdded9.webp",
+    "static/media/afterAfters.webp": "/react-to-my-portfolio/static/media/afterAfters.e2164bcc33795df4520e.webp",
+    "static/media/techBlog.webp": "/react-to-my-portfolio/static/media/techBlog.aad1c929ee774e2f9154.webp",
     "static/media/github.svg": "/react-to-my-portfolio/static/media/github.f334290d47a4b32f02360dba53686a3d.svg",
     "static/media/insta.svg": "/react-to-my-portfolio/static/media/insta.e991d6acf683c566b0b4a4700294ea28.svg",
     "index.html": "/react-to-my-portfolio/index.html",
     "static/media/file-pdf-solid.svg": "/react-to-my-portfolio/static/media/file-pdf-solid.68681bf1d75cb3d4efc68648bf58ce83.svg",
     "static/media/linkedin.svg": "/react-to-my-portfolio/static/media/linkedin.2fd3cb7d13adc02362da8317b6dc1abe.svg",
-    "main.08bcb48d.css.map": "/react-to-my-portfolio/static/css/main.08bcb48d.css.map",
-    "main.c546e51d.js.map": "/react-to-my-portfolio/static/js/main.c546e51d.js.map",
+    "main.1d222dda.css.map": "/react-to-my-portfolio/static/css/main.1d222dda.css.map",
+    "main.ecaba978.js.map": "/react-to-my-portfolio/static/js/main.ecaba978.js.map",
     "787.4fb3532e.chunk.js.map": "/react-to-my-portfolio/static/js/787.4fb3532e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bcb48d.css",
-    "static/js/main.c546e51d.js"
+    "static/css/main.1d222dda.css",
+    "static/js/main.ecaba978.js"
   ]
 }
