@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-to-my-portfolio/static/css/main.1d222dda.css",
-    "main.js": "/react-to-my-portfolio/static/js/main.ecaba978.js",
+    "main.js": "/react-to-my-portfolio/static/js/main.c6481adc.js",
     "static/js/787.4fb3532e.chunk.js": "/react-to-my-portfolio/static/js/787.4fb3532e.chunk.js",
     "static/media/JP.webm": "/react-to-my-portfolio/static/media/JP.9e4062b9b042f3cf5fb7.webm",
     "static/media/JPjumble2k3.webp": "/react-to-my-portfolio/static/media/JPjumble2k3.bab5aedd6572cfd386e1.webp",
@@ -21,11 +21,11 @@
     "static/media/file-pdf-solid.svg": "/react-to-my-portfolio/static/media/file-pdf-solid.68681bf1d75cb3d4efc68648bf58ce83.svg",
     "static/media/linkedin.svg": "/react-to-my-portfolio/static/media/linkedin.2fd3cb7d13adc02362da8317b6dc1abe.svg",
     "main.1d222dda.css.map": "/react-to-my-portfolio/static/css/main.1d222dda.css.map",
-    "main.ecaba978.js.map": "/react-to-my-portfolio/static/js/main.ecaba978.js.map",
+    "main.c6481adc.js.map": "/react-to-my-portfolio/static/js/main.c6481adc.js.map",
     "787.4fb3532e.chunk.js.map": "/react-to-my-portfolio/static/js/787.4fb3532e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d222dda.css",
-    "static/js/main.ecaba978.js"
+    "static/js/main.c6481adc.js"
   ]
 }
